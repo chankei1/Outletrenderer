@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184519BC1C13F4410055D63A /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184519BB1C13F4410055D63A /* ContactsUI.framework */; };
+		184519BE1C13F4470055D63A /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184519BD1C13F4470055D63A /* Contacts.framework */; };
 		18F39D401C12EA3A003999B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F39D3F1C12EA3A003999B8 /* AppDelegate.swift */; };
 		18F39D421C12EA3A003999B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F39D411C12EA3A003999B8 /* ViewController.swift */; };
 		18F39D451C12EA3A003999B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F39D431C12EA3A003999B8 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184519BB1C13F4410055D63A /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		184519BD1C13F4470055D63A /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		18F39D3C1C12EA3A003999B8 /* OutletRenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutletRenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F39D3F1C12EA3A003999B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F39D411C12EA3A003999B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184519BE1C13F4470055D63A /* Contacts.framework in Frameworks */,
+				184519BC1C13F4410055D63A /* ContactsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,8 @@
 		18F39D331C12EA3A003999B8 = {
 			isa = PBXGroup;
 			children = (
+				184519BD1C13F4470055D63A /* Contacts.framework */,
+				184519BB1C13F4410055D63A /* ContactsUI.framework */,
 				18F39D3E1C12EA3A003999B8 /* OutletRenderer */,
 				18F39D531C12EA3A003999B8 /* OutletRendererTests */,
 				18F39D5E1C12EA3A003999B8 /* OutletRendererUITests */,
@@ -482,6 +490,7 @@
 				18F39D661C12EA3A003999B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F39D671C12EA3A003999B8 /* Build configuration list for PBXNativeTarget "OutletRendererTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				18F39D691C12EA3A003999B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F39D6A1C12EA3A003999B8 /* Build configuration list for PBXNativeTarget "OutletRendererUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				18F39D6C1C12EA3A003999B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
