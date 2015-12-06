@@ -14,9 +14,14 @@ class ViewController: UIViewController {
     var targetURL = "https://www.google.co.jp/"
     var dateFormatter:NSDateFormatter = NSDateFormatter()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let languages = NSLocale.preferredLanguages()
+        
+        //使用言語を取得する
+        print(languages)
+        
         
         // 横幅、高さ、ステータスバーの高さを取得する
         let width: CGFloat! = self.view.bounds.width
@@ -40,8 +45,10 @@ class ViewController: UIViewController {
         // 指定したページを読み込む
         self.webView?.loadRequest(request)
         
-        
+ 
     }
+    
+
     
     
     // WebView を生成する
